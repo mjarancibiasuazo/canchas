@@ -1,0 +1,69 @@
+{
+  "canchas": {
+    "cancha1": {
+      "nombre": "Cancha A",
+      "ubicacion": {
+        "latitud": 12.345678,
+        "longitud": -45.678901
+      },
+      "actividades": {
+        "actividad1": {
+          "nombre": "Partido de fútbol",
+          "hora": "18:00",
+          "duracion": "2 horas",
+          "equipos": ["equipo1", "equipo2"],
+          "descripcion": "Partido amistoso"
+        },
+        "actividad2": {
+          "nombre": "Clase de tenis",
+          "hora": "15:00",
+          "duracion": "1.5 horas",
+          "instructor": "instructor1",
+          "descripcion": "Clase para principiantes"
+        }
+      }
+    },
+    "cancha2": {
+      "nombre": "Cancha B",
+      "ubicacion": {
+        "latitud": 11.111111,
+        "longitud": -44.444444
+      },
+      "actividades": {
+        "actividad3": {
+          "nombre": "Partido de baloncesto",
+          "hora": "20:00",
+          "duracion": "1.5 horas",
+          "equipos": ["equipo3", "equipo4"],
+          "descripcion": "Liga local"
+        }
+      }
+    }
+  },
+  "equipos": {
+    "equipo1": {
+      "nombre": "Los Tigres",
+      "jugadores": ["jugador1", "jugador2"],
+      "captain": "jugador1",
+      "correo": "tigres@example.com"
+    },
+    "equipo2": {
+      "nombre": "Las Águilas",
+      "jugadores": ["jugador3", "jugador4"],
+      "captain": "jugador3",
+      "correo": "aguilas@example.com"
+    },
+    "equipo3": {
+      "nombre": "Los Leones",
+      "jugadores": ["jugador5", "jugador6"],
+      "captain": "jugador5",
+      "correo": "leones@example.com"
+    },
+    "equipo4": {
+      "nombre": "Las Panteras",
+      "jugadores": ["jugador7", "jugador8"],
+      "captain": "jugador7",
+      "correo": "panteras@example.com"
+    }
+  }
+}
