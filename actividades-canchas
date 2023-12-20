@@ -1,6 +1,6 @@
 {
   "canchas": {
-    "cancha1": {
+    "cancha_1": {
       "nombre_cancha": "Cancha el Laurel #245",
       "ubicacion": {
         "latitud": 12.345678,
@@ -12,58 +12,58 @@
           "hora": "14:30",
           "duracion": "2 horas",
           "equipos": ["equipo1", "equipo2"],
-          "descripcion": "Torneo La Pintana 2023"
+          "descripcion": "Torneo La Pintana 2023 Liga Juvenil"
         },
         "actividad2": {
           "nombre": "Partido de Futbolito",
           "hora": "12:00",
           "duracion": "2 horas",
           "equipos": ["equipo_3", "equipo_4"],
-          "descripcion": "Torneo La Pintana"
+          "descripcion": "Torneo La Pintana 2023 Liga Juvenil"
         }
       }
     },
-    "cancha2": {
-      "nombre": "Cancha B",
+    "cancha_2": {
+      "nombre": "Cancha Población Diego Portales",
       "ubicacion": {
         "latitud": 11.111111,
         "longitud": -44.444444
       },
       "actividades": {
         "actividad3": {
-          "nombre": "Partido de baloncesto",
-          "hora": "20:00",
-          "duracion": "1.5 horas",
+          "nombre": "Partido de Futbolito",
+          "hora": "15:30",
+          "duracion": "2 horas",
           "equipos": ["equipo3", "equipo4"],
-          "descripcion": "Liga local"
+          "descripcion": "Torneo La Pintana Navideño"
         }
       }
     }
   },
   "equipos": {
     "equipo1": {
-      "nombre": "Los Tigres",
+      "nombre": "Ocho Club",
       "jugadores": ["jugador1", "jugador2"],
-      "captain": "jugador1",
-      "correo": "tigres@example.com"
+      "capitán": "Roberto Aguilera",
+      "correo": "ocho@gmail.com"
     },
     "equipo2": {
-      "nombre": "Las Águilas",
+      "nombre": "Titanes",
       "jugadores": ["jugador3", "jugador4"],
-      "captain": "jugador3",
-      "correo": "aguilas@example.com"
+      "capitán": "Francisco Soto",
+      "correo": "titaness@gmail.com"
     },
     "equipo3": {
-      "nombre": "Los Leones",
+      "nombre": "Gringos",
       "jugadores": ["jugador5", "jugador6"],
-      "captain": "jugador5",
-      "correo": "leones@example.com"
+      "capitán": "Mariano Herrera",
+      "correo": "gringos@gmail.com"
     },
     "equipo4": {
-      "nombre": "Las Panteras",
+      "nombre": "Halcones",
       "jugadores": ["jugador7", "jugador8"],
-      "captain": "jugador7",
-      "correo": "panteras@example.com"
+      "capitán": "Salvador Puentes",
+      "correo": "halcones@gmail.com"
     }
   }
 }
