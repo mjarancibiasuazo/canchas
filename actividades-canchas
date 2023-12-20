@@ -44,25 +44,25 @@
     }
   },
   "equipos": {
-    "equipo1": {
+    "equipo_1": {
       "nombre": "Ocho Club",
       "jugadores": ["jugador1", "jugador2"],
       "capitán": "Roberto Aguilera",
       "correo": "ocho@gmail.com"
     },
-    "equipo2": {
+    "equipo_2": {
       "nombre": "Titanes",
       "jugadores": ["jugador3", "jugador4"],
       "capitán": "Francisco Soto",
       "correo": "titaness@gmail.com"
     },
-    "equipo3": {
+    "equipo_3": {
       "nombre": "Gringos",
       "jugadores": ["jugador5", "jugador6"],
       "capitán": "Mariano Herrera",
       "correo": "gringos@gmail.com"
     },
-    "equipo4": {
+    "equipo_4": {
       "nombre": "Halcones",
       "jugadores": ["jugador7", "jugador8"],
       "capitán": "Salvador Puentes",
