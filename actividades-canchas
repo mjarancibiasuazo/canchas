@@ -1,25 +1,25 @@
 {
   "canchas": {
     "cancha1": {
-      "nombre": "Cancha A",
+      "nombre_cancha": "Cancha el Laurel #245",
       "ubicacion": {
         "latitud": 12.345678,
         "longitud": -45.678901
       },
       "actividades": {
-        "actividad1": {
-          "nombre": "Partido de fútbol",
-          "hora": "18:00",
+        "actividad_1": {
+          "nombre_actividad": "Partido de Futbolito",
+          "hora": "14:30",
           "duracion": "2 horas",
           "equipos": ["equipo1", "equipo2"],
-          "descripcion": "Partido amistoso"
+          "descripcion": "Torneo La Pintana 2023"
         },
         "actividad2": {
-          "nombre": "Clase de tenis",
-          "hora": "15:00",
-          "duracion": "1.5 horas",
-          "instructor": "instructor1",
-          "descripcion": "Clase para principiantes"
+          "nombre": "Partido de Futbolito",
+          "hora": "12:00",
+          "duracion": "2 horas",
+          "equipos": ["equipo_3", "equipo_4"],
+          "descripcion": "Torneo La Pintana"
         }
       }
     },
