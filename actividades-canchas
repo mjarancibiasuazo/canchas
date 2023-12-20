@@ -10,8 +10,9 @@
             "mes": "Enero",
             "año": "2024",
             "hora": "15:00",
-            "latitud": "12.345678",
-            "longitud": "-45.678901",
+            "latitude": 37.7749,
+            "longitude": -122.4194,
+            "address": "Cuidad de Mexico 1589, La Pintana"
             "imagen_equipo_1": "https://github.com/mjarancibiasuazo/equipos-futbol/raw/08b245009852bce8828ae69685232c2fc55e76d0/equipo-2.png",
             "imagen_equipo_2": "https://github.com/mjarancibiasuazo/equipos-futbol/raw/08b245009852bce8828ae69685232c2fc55e76d0/equipo-3.png"
         },
