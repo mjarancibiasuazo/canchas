@@ -11,14 +11,14 @@
           "nombre_actividad": "Partido de Futbolito",
           "hora": "14:30",
           "duracion": "2 horas",
-          "equipos": ["equipo1", "equipo2"],
+          "equipos": ["Ocho Club", "Titanes"],
           "descripcion": "Torneo La Pintana 2023 Liga Juvenil"
         },
         "actividad2": {
           "nombre": "Partido de Futbolito",
           "hora": "12:00",
           "duracion": "2 horas",
-          "equipos": ["equipo_3", "equipo_4"],
+          "equipos": ["Gringos", "Halcones"],
           "descripcion": "Torneo La Pintana 2023 Liga Juvenil"
         }
       }
@@ -34,8 +34,8 @@
           "nombre": "Partido de Futbolito",
           "hora": "15:30",
           "duracion": "2 horas",
-          "equipos": ["equipo3", "equipo4"],
-          "descripcion": "Torneo La Pintana Navideño"
+          "equipos": ["Panteras", "Tigretón"],
+          "descripcion": "Torneo La Pintana 2023 Liga Infantil"
         }
       }
     }
