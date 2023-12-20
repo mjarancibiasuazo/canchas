@@ -1,72 +1,84 @@
 {
-  "canchas": {
-    "cancha_1": {
-      "nombre_cancha": "Cancha el Laurel #245",
-      "ubicacion": {
-        "latitud": 12.345678,
-        "longitud": -45.678901
-      },
-      "actividades": {
-        "actividad_1": {
-          "nombre_actividad": "Partido de Futbolito",
-          "hora": "15:00",
-          "duracion": "2 horas",
-          "equipo_1": "Lion 23,
-          "equipo_2": "Rayos",
-          "descripcion": "Torneo La Pintana 2023 Liga Juvenil"
+    "canchas": {
+        "cancha_1": {
+            "nombre_cancha": "Cancha el Laurel #245",
+            "ubicacion": {
+                "latitud": 12.345678,
+                "longitud": -45.678901
+            },
+            "actividades": {
+                "actividad_1": {
+                    "nombre_actividad": "Partido de Futbolito",
+                    "hora": "15:00",
+                    "duracion": "2 horas",
+                    "equipo_1": "Lion 23",
+                    "equipo_2": "Rayos",
+                    "descripcion": "Torneo La Pintana 2023 Liga Juvenil"
+                },
+                "actividad2": {
+                    "nombre": "Partido de Futbolito",
+                    "hora": "14:30",
+                    "duracion": "2 horas",
+                    "equipo_3": "Ocho Club",
+                    "equipo_4": "Titanes",
+                    "descripcion": "Torneo La Pintana 2023 Liga Juvenil"
+                }
+            }
         },
-        "actividad2": {
-          "nombre": "Partido de Futbolito",
-          "hora": "14:30",
-          "duracion": "2 horas",
-          "equipo_3": "Ocho Club",
-          "equipo_4": "Titanes",
-          "descripcion": "Torneo La Pintana 2023 Liga Juvenil"
+        "cancha_2": {
+            "nombre": "Cancha Población Diego Portales",
+            "ubicacion": {
+                "latitud": 11.111111,
+                "longitud": -44.444444
+            },
+            "actividades": {
+                "actividad3": {
+                    "nombre": "Partido de Futbolito",
+                    "hora": "10:00",
+                    "duracion": "2 horas",
+                    "equipo_5": "Panteras",
+                    "equipo_6": "Tigretón",
+                    "descripcion": "Torneo La Pintana 2023 Liga Infantil"
+                }
+            }
         }
-      }
     },
-    "cancha_2": {
-      "nombre": "Cancha Población Diego Portales",
-      "ubicacion": {
-        "latitud": 11.111111,
-        "longitud": -44.444444
-      },
-      "actividades": {
-        "actividad3": {
-          "nombre": "Partido de Futbolito",
-          "hora": "10:00",
-          "duracion": "2 horas",
-          "equipo_5": "Panteras",
-          "equipo_6": "Tigretón",
-          "descripcion": "Torneo La Pintana 2023 Liga Infantil"
+    "equipos": {
+        "equipo_1": {
+            "nombre": "Ocho Club",
+            "jugadores": [
+                "jugador1",
+                "jugador2"
+            ],
+            "capitán": "Roberto Aguilera",
+            "correo": "ocho@gmail.com"
+        },
+        "equipo_2": {
+            "nombre": "Titanes",
+            "jugadores": [
+                "jugador3",
+                "jugador4"
+            ],
+            "capitán": "Francisco Soto",
+            "correo": "titaness@gmail.com"
+        },
+        "equipo_3": {
+            "nombre": "Gringos",
+            "jugadores": [
+                "jugador5",
+                "jugador6"
+            ],
+            "capitán": "Mariano Herrera",
+            "correo": "gringos@gmail.com"
+        },
+        "equipo_4": {
+            "nombre": "Halcones",
+            "jugadores": [
+                "jugador7",
+                "jugador8"
+            ],
+            "capitán": "Salvador Puentes",
+            "correo": "halcones@gmail.com"
         }
-      }
     }
-  },
-  "equipos": {
-    "equipo_1": {
-      "nombre": "Ocho Club",
-      "jugadores": ["jugador1", "jugador2"],
-      "capitán": "Roberto Aguilera",
-      "correo": "ocho@gmail.com"
-    },
-    "equipo_2": {
-      "nombre": "Titanes",
-      "jugadores": ["jugador3", "jugador4"],
-      "capitán": "Francisco Soto",
-      "correo": "titaness@gmail.com"
-    },
-    "equipo_3": {
-      "nombre": "Gringos",
-      "jugadores": ["jugador5", "jugador6"],
-      "capitán": "Mariano Herrera",
-      "correo": "gringos@gmail.com"
-    },
-    "equipo_4": {
-      "nombre": "Halcones",
-      "jugadores": ["jugador7", "jugador8"],
-      "capitán": "Salvador Puentes",
-      "correo": "halcones@gmail.com"
-    }
-  }
 }
