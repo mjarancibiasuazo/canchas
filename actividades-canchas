@@ -1,84 +1,79 @@
 {
-    "canchas": {
-        "cancha_1": {
-            "nombre_cancha": "Cancha el Laurel #245",
-            "ubicacion": {
-                "latitud": 12.345678,
-                "longitud": -45.678901
-            },
-            "actividades": {
-                "actividad_1": {
-                    "nombre_actividad": "Partido de Futbolito",
-                    "hora": "15:00",
-                    "duracion": "2 horas",
-                    "equipo_1": "Lion 23",
-                    "equipo_2": "Rayos",
-                    "descripcion": "Torneo La Pintana 2023 Liga Juvenil"
-                },
-                "actividad2": {
-                    "nombre": "Partido de Futbolito",
-                    "hora": "14:30",
-                    "duracion": "2 horas",
-                    "equipo_3": "Ocho Club",
-                    "equipo_4": "Titanes",
-                    "descripcion": "Torneo La Pintana 2023 Liga Juvenil"
-                }
-            }
-        },
-        "cancha_2": {
-            "nombre": "Cancha Población Diego Portales",
-            "ubicacion": {
-                "latitud": 11.111111,
-                "longitud": -44.444444
-            },
-            "actividades": {
-                "actividad3": {
-                    "nombre": "Partido de Futbolito",
-                    "hora": "10:00",
-                    "duracion": "2 horas",
-                    "equipo_5": "Panteras",
-                    "equipo_6": "Tigretón",
-                    "descripcion": "Torneo La Pintana 2023 Liga Infantil"
-                }
-            }
-        }
-    },
-    "equipos": {
-        "equipo_1": {
-            "nombre": "Ocho Club",
-            "jugadores": [
-                "jugador1",
-                "jugador2"
-            ],
-            "capitán": "Roberto Aguilera",
-            "correo": "ocho@gmail.com"
-        },
-        "equipo_2": {
-            "nombre": "Titanes",
-            "jugadores": [
-                "jugador3",
-                "jugador4"
-            ],
-            "capitán": "Francisco Soto",
-            "correo": "titaness@gmail.com"
-        },
-        "equipo_3": {
-            "nombre": "Gringos",
-            "jugadores": [
-                "jugador5",
-                "jugador6"
-            ],
-            "capitán": "Mariano Herrera",
-            "correo": "gringos@gmail.com"
-        },
-        "equipo_4": {
-            "nombre": "Halcones",
-            "jugadores": [
-                "jugador7",
-                "jugador8"
-            ],
-            "capitán": "Salvador Puentes",
-            "correo": "halcones@gmail.com"
-        }
-    }
+"data": [
+{
+"cancha_id": 1,
+"nombre_cancha": "Cancha El Laurel #245",
+"nombre_torneo": "Torneo la Pintana 2023",
+"nombre_equipo_1": "Lion 23",
+"nombre_equipo_2": "Rayos",
+"dia": "14",
+"mes": "Enero",
+"año": "2024",
+"hora": "15:00",
+"latitud": "12.345678",
+"longitud": "-45.678901",
+"imagen_equipo_1": "https://github.com/mjarancibiasuazo/equipos-futbol/raw/08b245009852bce8828ae69685232c2fc55e76d0/equipo-2.png",
+"imagen_equipo_2": "https://github.com/mjarancibiasuazo/equipos-futbol/raw/08b245009852bce8828ae69685232c2fc55e76d0/equipo-3.png"
+},
+{
+"cancha_id": 2,
+"nombre_cancha": "Cancha El Laurel #245",
+"nombre_torneo": "Torneo la Pintana 2023",
+"nombre_equipo_1": "Ocho Club",
+"nombre_equipo_2": "Titanes",
+"dia": "17",
+"mes": "Enero",
+"año": "2024",
+"hora": "14:30",
+"latitud": "11.111111",
+"longitud": "-44.444444",
+"imagen_equipo_1": "https://github.com/mjarancibiasuazo/equipos-futbol/raw/08b245009852bce8828ae69685232c2fc55e76d0/equipo-1.png",
+"imagen_equipo_2": "https://github.com/mjarancibiasuazo/equipos-futbol/raw/08b245009852bce8828ae69685232c2fc55e76d0/equipo-7.png"
+},
+{
+"cancha_id": 3,
+"nombre_cancha": "El Laurel #245",
+"nombre_torneo": "Torneo la Pintana 2023",
+"nombre_equipo_1": "Gringos",
+"nombre_equipo_2": "Halcones",
+"dia": "20",
+"mes": "Enero",
+"año": "2024",
+"hora": "12:00",
+"latitud": "11.111111",
+"longitud": "-44.444444",
+"imagen_equipo_1": "https://github.com/mjarancibiasuazo/equipos-futbol/raw/08b245009852bce8828ae69685232c2fc55e76d0/equipo-8.png",
+"imagen_equipo_2": "https://github.com/mjarancibiasuazo/equipos-futbol/raw/08b245009852bce8828ae69685232c2fc55e76d0/equipo-3.png"
+},
+{
+"cancha_id": 4,
+"nombre_cancha": "El Laurel #245",
+"nombre_torneo": "Torneo la Pintana 2023",
+"nombre_equipo_1": "Panteras",
+"nombre_equipo_2": "Tigretón",
+"dia": "25",
+"mes": "Enero",
+"año": "2024",
+"hora": "10:00",
+"latitud": "11.111111",
+"longitud": "-44.444444",
+"imagen_equipo_1": "https://github.com/mjarancibiasuazo/equipos-futbol/raw/08b245009852bce8828ae69685232c2fc55e76d0/equipo-6.png",
+"imagen_equipo_2": "https://github.com/mjarancibiasuazo/equipos-futbol/raw/08b245009852bce8828ae69685232c2fc55e76d0/equipo-12.png"
+},
+{
+"cancha_id": 5,
+"nombre_cancha": "El Laurel #245",
+"nombre_torneo": "Torneo la Pintana 2023",
+"nombre_equipo_1": "keithston",
+"nombre_equipo_2": "Tigrestón",
+"dia": "25",
+"mes": "Enero",
+"año": "2024",
+"hora": "10:00",
+"latitud": "11.111111",
+"longitud": "-44.444444",
+"imagen_equipo_1": "https://github.com/mjarancibiasuazo/equipos-futbol/raw/08b245009852bce8828ae69685232c2fc55e76d0/equipo-11.png",
+"imagen_equipo_2": "https://github.com/mjarancibiasuazo/equipos-futbol/raw/08b245009852bce8828ae69685232c2fc55e76d0/equipo-12.png"
+}
+]
 }
